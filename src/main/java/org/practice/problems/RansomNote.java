@@ -5,7 +5,7 @@ import java.util.Map;
 // 383. Ransom Note
 
 public class RansomNote {
-    public static boolean canConstructABoolean(String ransomNote, String magazine) {
+    public static boolean canConstructOne(String ransomNote, String magazine) {
 
         Map<Character, Integer> chMap = new HashMap<>();
 
@@ -21,6 +21,8 @@ public class RansomNote {
 
         return true;
     }
+
+//
 
     public static boolean canConstruct(String ransomNote, String magazine) {
 
