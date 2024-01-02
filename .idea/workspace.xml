@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d615b3cf-cf13-4547-aa58-f9e7a525c81b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/practice/problems/MiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/practice/problems/MiddleNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RansomNote">
+  <component name="RunManager" selected="Application.ConvertAnArrayInto2D">
+    <configuration name="ConvertAnArrayInto2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.practice.problems.ConvertAnArrayInto2D" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.practice.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindContentChildren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.practice.problems.FindContentChildren" />
       <module name="leetcode" />
@@ -102,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.practice.problems.NumberOfSteps" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.practice.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.practice.problems.RansomNote" />
       <module name="leetcode" />
@@ -130,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConvertAnArrayInto2D" />
         <item itemvalue="Application.RansomNote" />
         <item itemvalue="Application.FindContentChildren" />
         <item itemvalue="Application.MiddleNode" />
         <item itemvalue="Application.MaxLengthBetweenEqualCharacters" />
-        <item itemvalue="Application.NumberOfSteps" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +155,7 @@
       <workItem from="1703999844251" duration="3534000" />
       <workItem from="1704009176432" duration="4535000" />
       <workItem from="1704081756791" duration="8902000" />
+      <workItem from="1704165185840" duration="9116000" />
     </task>
     <servers />
   </component>
@@ -171,6 +168,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="8" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
